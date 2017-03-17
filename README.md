@@ -1,3 +1,14 @@
+
+This is a fork of PixelWeb for a specific apllication
+three Columns in a cellar have each a circle opf WS2801 LED
+Server is a Raspi3 
+
+to Dos:
+-make Pixelweb autostart on Port 80
+-hide config tabs of webmenu after manually setting up network config
+-(auto) generate an empty autostart qeue on startup if it not exists
+-automatically start autostart que on boot 
+
 PixelWeb is a dynamic graphical interface for our super flexible animation SDK, [BiblioPixel](http://github.com/maniacallabs/BiblioPixel). It runs everywhere BiblioPixel does and provides an easy to use web-based interface to nearly everything BiblioPixel can do. This not only allows local system control but via any other computer on the same network<sup>&dagger;</sup>.  
 
 ## Installation
