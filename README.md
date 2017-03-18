@@ -4,16 +4,31 @@ This is a fork of PixelWeb for a specific apllication
 three Columns in a cellar have each a circle opf WS2801 LED
 Server is a Raspi3
 
+*** This repo wont work for your application **
 
-to Dos:
+todo s:
 
--make Pixelweb autostart on Port 80
 
--hide config tabs of webmenu after manually setting up network config
+- [ ] Pixelweb hinter einem anderen Server wie Apache, nginx o.ä. verstecken damit der anwender nicht auf einen Server mit sudo-rechten trifft.
 
--(auto) generate an empty autostart qeue on startup if it not exists
+- [x]config Menüpunkte vorm User verstecken
+  -> html multiline comment aus den menüounkten in `/ui/index.html` machen
+  -> siehe Zeile 58 + 65 in index.html
 
--automatically start autostart que on boot
+- [x] Link zum repository hinzugefügt
+- [x] Link zu einer Anleitung
+- [] den haupthelligkeitsregler aus den configbereich in einen anderen verlegen
+Autostart
+- [ ] eine autostart queue erstellen die einge harmlose animationen enthält
+- [ ] autostart queue bei jedem start aus einem entfernten Ordner kopieren oder allen usern die write rechte auf diese datei entziehen, das sie nicht versehentlich veränder/gelöscht wird
+
+- [ ] automatisch die autsostart queue beim programmstart starten
+
+- [ ] starte run-pixelweb via cronjob mit @reboot mit:
+
+  `run-pixelweb /home/pi`
+
+  damit der Server die config dateien nicht in /root/ ablegt
 
 ---
 
