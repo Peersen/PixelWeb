@@ -10,15 +10,15 @@ todo s:
 
 
 - [ ] Pixelweb hinter einem anderen Server wie Apache, nginx o.ä. verstecken damit der anwender nicht auf einen Server mit sudo-rechten trifft.
-
 - [x]config Menüpunkte vorm User verstecken
+
   -> html multiline comment aus den menüounkten in `/ui/index.html` machen
+
   -> siehe Zeile 58 + 65 in index.html
 
 - [x] Link zum repository hinzugefügt
 - [x] Link zu einer Anleitung
-- [] den haupthelligkeitsregler aus den configbereich in einen anderen verlegen
-Autostart
+- [ ] den haupthelligkeitsregler aus den configbereich in einen anderen verlegen Autostart
 - [ ] eine autostart queue erstellen die einge harmlose animationen enthält
 - [ ] autostart queue bei jedem start aus einem entfernten Ordner kopieren oder allen usern die write rechte auf diese datei entziehen, das sie nicht versehentlich veränder/gelöscht wird
 
